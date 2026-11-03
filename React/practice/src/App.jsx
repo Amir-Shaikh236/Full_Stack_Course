@@ -1,6 +1,8 @@
 
 import './App.css'
-import UseInsertionEffect from './components/Hooks/effectHooks/useInsertionEffect'
+import Timer from './components/Hooks/ResourceHook/timer'
+// import UseRef from './components/Hooks/ResourceHook/useRef'
+// import UseInsertionEffect from './components/Hooks/effectHooks/useInsertionEffect'
 // import UseLayoutEffect from './components/Hooks/effectHooks/useLayoutEffect'
 // import Effect from './components/Hooks/effectHooks/useEffect'
 // import Form from './components/form'
@@ -15,7 +17,7 @@ function App() {
     <>
       {/* <Effect /> */}
       {/* <UseLayoutEffect /> */}
-      <UseInsertionEffect />
+      {/* <UseInsertionEffect /> */}
 
       {/* <Memo /> */}
       {/* <UseCallback /> */}
@@ -23,6 +25,9 @@ function App() {
       {/* <Form />
       <State /> */}
       {/* <UseReducer /> */}
+
+      {/* <UseRef /> */}
+      <Timer />
     </>
   )
 }
