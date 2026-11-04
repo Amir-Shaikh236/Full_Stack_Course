@@ -6,7 +6,6 @@ export default function Timer() {
 
     const timerRef = useRef()
 
-
     const startTimer = () => {
         setTimerState(true)
         timerRef.current = setInterval(() => {

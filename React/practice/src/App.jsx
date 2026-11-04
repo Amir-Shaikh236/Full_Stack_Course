@@ -1,6 +1,8 @@
 
 import './App.css'
-import Timer from './components/Hooks/ResourceHook/timer'
+// import Timer from './components/Hooks/ResourceHook/timer'
+// import ForwardRefParent from './components/Hooks/useImpertiveHandle/ForwardRefParent'
+import { ImperativeParent } from './components/Hooks/useImpertiveHandle/imperativeParent'
 // import UseRef from './components/Hooks/ResourceHook/useRef'
 // import UseInsertionEffect from './components/Hooks/effectHooks/useInsertionEffect'
 // import UseLayoutEffect from './components/Hooks/effectHooks/useLayoutEffect'
@@ -27,7 +29,9 @@ function App() {
       {/* <UseReducer /> */}
 
       {/* <UseRef /> */}
-      <Timer />
+      {/* <Timer /> */}
+      {/* <ForwardRefParent /> */}
+      <ImperativeParent />
     </>
   )
 }
