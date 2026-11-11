@@ -1,8 +1,10 @@
 
 import './App.css'
+import FramerMotion2 from './components/Animation/framer-motion-2'
+// import FramerMotion from './components/Animation/framer-motion'
 // import Timer from './components/Hooks/ResourceHook/timer'
 // import ForwardRefParent from './components/Hooks/useImpertiveHandle/ForwardRefParent'
-import { ImperativeParent } from './components/Hooks/useImpertiveHandle/imperativeParent'
+// import { ImperativeParent } from './components/Hooks/useImpertiveHandle/imperativeParent'
 // import UseRef from './components/Hooks/ResourceHook/useRef'
 // import UseInsertionEffect from './components/Hooks/effectHooks/useInsertionEffect'
 // import UseLayoutEffect from './components/Hooks/effectHooks/useLayoutEffect'
@@ -31,7 +33,12 @@ function App() {
       {/* <UseRef /> */}
       {/* <Timer /> */}
       {/* <ForwardRefParent /> */}
-      <ImperativeParent />
+      {/* <ImperativeParent /> */}
+
+
+      {/* Animation */}
+      {/* <FramerMotion /> */}
+      <FramerMotion2 />
     </>
   )
 }
